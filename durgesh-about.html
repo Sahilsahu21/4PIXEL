@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    body{
+background-color:black;
+
+} 
+
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+}
+.heading h1::after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin:0 auto;
+    background-color: #4caf50;
+
+}
+.heading p{
+    font-size: 7px;
+    color: #ffffff;
+    margin-bottom: 35px;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+
+}
+.about{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-imge{
+    flex: 1;
+    margin-right: 40px;
+    overflow: auto;
+}
+.about-imge img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-imge:hover img{
+    transform: scale(1.2);
+
+}
+.about-content{
+    flex: 1;
+}
+.about-content h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+
+
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color:white;
+}
+@media screen and (max-width:450px) {
+    .about-content p{
+    font-size: 40px;
+    line-height: 1.5;
+    color:rgb(158, 129, 129);
+}
+.about-content h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+
+
+}
+
+    </style>
+</head>
+<body>
+    <DIV class="heading">
+        <h1> ABOUT US</h1>
+        
+    </DIV>
+    <div class="container">
+        <section class="about">
+            <div class="about-imge">
+                <img src="people-2561053_1920.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h2>About 4Pixel Photography -  Durgesh Pawar
+                </h2>
+                <p>Welcome to 4Pixel Photography, where moments are transformed into lasting memories through the lens of creativity and skill. I'm h Pawar, the visionary photographer behind 4Pixel Photography, dedicated to capturing the beauty and emotion in every frame.
+
+                    Meet Durgesh Pawar:
+                    
+                    As the founder and principal photographer, I bring a wealth of experience and an artistic touch to every project. With a passion for storytelling through images, I strive to create visual narratives that resonate with authenticity and emotion.
+                    
+                    Our Vision at 4Pixel Photography:
+                    
+                    At 4Pixel Photography, we believe in the power of pixels to weave stories. Each photograph is a pixel in the larger narrative of your life, and we are here to craft those pixels into a tapestry of cherished memories. Our vision is to go beyond capturing moments - we aim to create visual experiences that you'll treasure forever.
+                    
+                    What Sets 4Pixel Photography Apart:
+                    
+                    Creative Excellence: We approach every project with a creative mindset, ensuring that your photographs are not just snapshots but pieces of art that tell a story.
+                    
+                    Personalized Service: Your story is unique, and so is our approach. We tailor our services to suit your individual needs, providing a personalized and enjoyable photography experience.
+                    
+                    Technical Precision: Equipped with the latest photography tools and a deep understanding of the craft, we ensure technical precision in every shot, delivering images that stand out for their clarity and composition.
+                    
+                    Join Us on the Visual Journey:
+                    
+                    Whether it's a wedding celebration, a family portrait session, or a corporate event, 4Pixel Photography is here to capture the essence of your special moments. Let's embark on a visual journey together, where pixels meet passion.
+                    Thank you for considering 4Pixel Photography to be a part of your memories.
+
+h Pawar
+Founder, 4Pixel Photography
+                    </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
